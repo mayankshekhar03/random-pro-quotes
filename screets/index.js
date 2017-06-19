@@ -53,12 +53,6 @@ $(document).ready(function() {
 
      }
 
-     else {
-
-        alert("Whatsapp client not available.");
-
-     }
-
   });
     
     $('#tweet').on('click', function() {
