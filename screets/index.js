@@ -31,12 +31,11 @@ function getQuote(){
           $('#author').text('- ' + author);
         });
     });
-    
-    $('#tweet').on('click', function() {
-    if(!inIframe()) {
-      openURL('https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quote + '" ' + author));
-    }
-  });
+}
+
+$(document).ready(function() {
+    getQuote();
+        $("#change").on("click", getQuote);
     
     $('#wa').on("click", function () {
 
@@ -60,11 +59,11 @@ function getQuote(){
 
      }
 
-  })
+  });
     
-}
-
-$(document).ready(function() {
-    getQuote();
-        $("#change").on("click", getQuote);
+    $('#tweet').on('click', function() {
+    if(!inIframe()) {
+      openURL('https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quote + '" ' + author));
+    }
+  });
 });
