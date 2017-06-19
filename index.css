@@ -1,0 +1,70 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.main-box {
+    margin: 0px auto;
+    max-width: 500px;
+    margin-top: 2%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+    background-color: cyan;
+    font-size: 2em;
+    font-stretch: expanded;
+    border-left: 4px;
+    border-right: 4px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+}
+
+.dream {
+    font-family: 'Indie Flower', cursive;
+    color: red;
+    font-weight: 1000;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    z-index: 5;
+    position: relative;
+    top: 25px;
+    right: 35px;
+}
+
+#author {
+    float: right;
+    clear: both;
+}
+
+button {
+    height: 43px;
+    margin-top: 25px;
+    color: white;
+    background-color: crimson;
+    border-radius: 5px;
+    font-size: .6em;
+    border: none;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#tweet {
+    float: right;
+    background-color: dodgerblue;
+    margin-left: 3px;
+}
+#wa {
+    float: right;
+    background-color: forestgreen;
+}
+
+#tweet:hover, #wa:hover {
+    color: white;
+    opacity: 0.9;
+    border: none;
+}
