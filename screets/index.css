@@ -1,6 +1,7 @@
 * {
     font-family: 'Josefin Sans', sans-serif;
 }
+
 @media screen and (min-width: 1000px) {
 .main-box {
     margin: 0px auto;
@@ -22,32 +23,14 @@ h2 {
     margin-top: 40px;
     font-size: 2em;
 }
-}
-
-.dream {
-    font-family: 'Indie Flower', cursive;
-    color: red;
-    font-weight: 1000;
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    z-index: 5;
-    position: relative;
-    top: 25px;
-    right: 35px;
-}
-
-#author {
-    float: right;
-    clear: both;
-}
-
+    
 button {
     height: 42px;
     margin-top: 25px;
     color: white;
     background-color: crimson;
     border-radius: 5px;
-    font-size: .6em;
+    font-size: 1em;
     border: none;
 }
 
@@ -69,6 +52,24 @@ button:hover {
     color: white;
     opacity: 0.9;
     border: none;
+}
+}
+
+.dream {
+    font-family: 'Indie Flower', cursive;
+    color: red;
+    font-weight: 1000;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    z-index: 5;
+    position: relative;
+    top: 25px;
+    right: 35px;
+}
+
+#author {
+    float: right;
+    clear: both;
 }
 
 @media screen and (max-width: 999px) {
