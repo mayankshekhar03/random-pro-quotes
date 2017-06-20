@@ -84,19 +84,33 @@ button:hover {
         margin: 0 auto;
         padding: 20px;
         border: none;
+        font-size: 3.2em;
         border-radius: 5px;
         z-index: 2;
         background-color: cyan;
-        font-size: 2em;
         border-left: 4px;
         border-right: 4px;
+        clear: both;
+    }
+    
+    .author {
+        clear: both;
     }
 
     h2 {
         text-align: center;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     body {
         margin: 2 auto; 
+    }
+    button, #tweet, #wa {
+        font-size: .4em;
+    }
+    
+    #tweet, #wa {
+        font-size: .6em;
+        height: auto;
+        margin-top: 31px;
     }
 }
