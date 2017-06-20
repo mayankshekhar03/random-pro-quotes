@@ -104,13 +104,13 @@ button:hover {
     body {
         margin: 2 auto; 
     }
-    button, #tweet, #wa {
-        font-size: .4em;
+    button {
+        font-size: .7em;
     }
     
     #tweet, #wa {
-        font-size: .6em;
+        font-size: .8em;
         height: auto;
-        margin-top: 31px;
+        margin-top: 25px;
     }
 }
