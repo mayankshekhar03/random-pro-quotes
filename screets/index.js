@@ -8,9 +8,10 @@ function openURL(url){
 }
 
 function getQuote(){
-    $.getJSON("http://quotes.stormconsultancy.co.uk/random.json", function(json) {
-        author = json.author;
-        quote  = json.quote;
+    $.getJSON("quotes.json", function(json) {
+        var numRand = Math.floor((Math.random() * json.length));
+        author = json[numRand]['author'];
+        quote = json[numRand]['quote'];
         $(".quote").animate({
           opacity: 0
         }, 500,
