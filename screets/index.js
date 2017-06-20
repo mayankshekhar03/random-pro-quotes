@@ -52,6 +52,9 @@ $(document).ready(function() {
         window.location.href = whatsapp_url;
 
      }
+        else{
+            alert("This feature is only available on a smartphone with WhatsApp.");
+        }
 
   });
     
