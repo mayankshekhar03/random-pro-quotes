@@ -97,13 +97,37 @@ button:hover {
     body {
         margin: 2 auto; 
     }
-    button {
-        font-size: .4em;
-    }
     
-    #tweet, #wa {
-        font-size: .8em;
-        height: auto;
-        margin-top: 25px;
+    button {
+    height: auto;
+    margin-top: 25px;
+    color: white;
+    background-color: crimson;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    }
+
+    button:hover {
+        background-color: red;
+    }
+
+    #tweet {
+        height: 60px;
+        float: right;
+        background-color: dodgerblue;
+        margin-left: 3px;
+    }
+    #wa {
+        width: 60px;
+        height: 60px;
+        float: right;
+        background-color: forestgreen;
+    }
+
+    #tweet:hover, #wa:hover {
+        color: white;
+        opacity: 0.9;
+        border: none;
     }
 }
