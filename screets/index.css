@@ -105,11 +105,11 @@ button:hover {
         margin: 2 auto; 
     }
     button {
-        font-size: 1em;
+        font-size: 2em;
     }
     
     #tweet, #wa {
-        font-size: 1em;
+        font-size: 2em;
         height: auto;
         margin-top: 25px;
     }
