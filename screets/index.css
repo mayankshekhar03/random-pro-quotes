@@ -71,14 +71,6 @@ button:hover {
     border: none;
 }
 
-
-.footer {
-    max-width: 720px;
-    margin: 0 auto;
-    color: black;
-    text-decoration: none;
-}
-
 @media screen and (max-width: 999px) {
     .main-box {
         margin: 0 auto;
@@ -105,11 +97,11 @@ button:hover {
         margin: 2 auto; 
     }
     button {
-        font-size: 2em;
+        font-size: .4em;
     }
     
     #tweet, #wa {
-        font-size: 2em;
+        font-size: .8em;
         height: auto;
         margin-top: 25px;
     }
